@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      { "command": "./hooks/vibe-status.sh sessionStart" }
+    ],
+    "sessionEnd": [
+      { "command": "./hooks/vibe-status.sh sessionEnd" }
+    ],
+    "preToolUse": [
+      { "command": "./hooks/vibe-status.sh preToolUse" }
+    ],
+    "postToolUse": [
+      { "command": "./hooks/vibe-status.sh postToolUse" }
+    ],
+    "postToolUseFailure": [
+      { "command": "./hooks/vibe-status.sh postToolUseFailure" }
+    ],
+    "afterAgentThought": [
+      { "command": "./hooks/vibe-status.sh afterAgentThought" }
+    ],
+    "afterAgentResponse": [
+      { "command": "./hooks/vibe-status.sh afterAgentResponse" }
+    ],
+    "stop": [
+      { "command": "./hooks/vibe-status.sh stop" }
+    ],
+    "beforeShellExecution": [
+      { "command": "./hooks/vibe-status.sh beforeShellExecution" }
+    ],
+    "afterShellExecution": [
+      { "command": "./hooks/vibe-status.sh afterShellExecution" }
+    ],
+    "beforeMCPExecution": [
+      { "command": "./hooks/vibe-status.sh beforeMCPExecution" }
+    ],
+    "afterMCPExecution": [
+      { "command": "./hooks/vibe-status.sh afterMCPExecution" }
+    ],
+    "subagentStart": [
+      { "command": "./hooks/vibe-status.sh subagentStart" }
+    ],
+    "subagentStop": [
+      { "command": "./hooks/vibe-status.sh subagentStop" }
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* VibeCodingMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000001 /* VibeCodingMonitorApp.swift */; };
+		A10000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000002 /* ContentView.swift */; };
+		A10000010000000000000003 /* AgentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000003 /* AgentStatus.swift */; };
+		A10000010000000000000004 /* StatusMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000004 /* StatusMonitor.swift */; };
+		A10000010000000000000005 /* StatusLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000005 /* StatusLightView.swift */; };
+		A10000010000000000000006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000006 /* Assets.xcassets */; };
+		A10000010000000000000007 /* StatusSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000009 /* StatusSound.swift */; };
+		A10000010000000000000008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000010 /* AppDelegate.swift */; };
+		A10000010000000000000009 /* WindowModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000011 /* WindowModeManager.swift */; };
+		A10000010000000000000010 /* FloatingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000012 /* FloatingPanelView.swift */; };
+		A10000010000000000000011 /* WindowStyleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000013 /* WindowStyleConfigurator.swift */; };
+		A10000010000000000000012 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000014 /* RootView.swift */; };
+		A10000010000000000000013 /* startup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000015 /* startup.mp3 */; };
+		A10000010000000000000014 /* StartupSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000020000000000000016 /* StartupSound.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000020000000000000001 /* VibeCodingMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibeCodingMonitorApp.swift; sourceTree = "<group>"; };
+		A10000020000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000020000000000000003 /* AgentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentStatus.swift; sourceTree = "<group>"; };
+		A10000020000000000000004 /* StatusMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMonitor.swift; sourceTree = "<group>"; };
+		A10000020000000000000005 /* StatusLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLightView.swift; sourceTree = "<group>"; };
+		A10000020000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000020000000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000020000000000000008 /* VibeCodingMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VibeCodingMonitor.entitlements; sourceTree = "<group>"; };
+		A10000020000000000000009 /* StatusSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusSound.swift; sourceTree = "<group>"; };
+		A10000020000000000000010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10000020000000000000011 /* WindowModeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowModeManager.swift; sourceTree = "<group>"; };
+		A10000020000000000000012 /* FloatingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelView.swift; sourceTree = "<group>"; };
+		A10000020000000000000013 /* WindowStyleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowStyleConfigurator.swift; sourceTree = "<group>"; };
+		A10000020000000000000014 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A10000020000000000000015 /* startup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = startup.mp3; sourceTree = "<group>"; };
+		A10000020000000000000016 /* StartupSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupSound.swift; sourceTree = "<group>"; };
+		A10000030000000000000001 /* VibeCodingMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibeCodingMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000040000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000050000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A10000050000000000000002 /* VibeCodingMonitor */,
+				A10000050000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000050000000000000002 /* VibeCodingMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				A10000020000000000000001 /* VibeCodingMonitorApp.swift */,
+				A10000020000000000000010 /* AppDelegate.swift */,
+				A10000020000000000000002 /* ContentView.swift */,
+				A10000050000000000000004 /* Models */,
+				A10000050000000000000005 /* Services */,
+				A10000050000000000000006 /* Views */,
+				A10000050000000000000007 /* Resources */,
+				A10000020000000000000006 /* Assets.xcassets */,
+				A10000020000000000000007 /* Info.plist */,
+				A10000020000000000000008 /* VibeCodingMonitor.entitlements */,
+			);
+			path = VibeCodingMonitor;
+			sourceTree = "<group>";
+		};
+		A10000050000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000030000000000000001 /* VibeCodingMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000050000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A10000020000000000000003 /* AgentStatus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A10000050000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A10000020000000000000004 /* StatusMonitor.swift */,
+				A10000020000000000000009 /* StatusSound.swift */,
+				A10000020000000000000016 /* StartupSound.swift */,
+				A10000020000000000000011 /* WindowModeManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A10000050000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A10000020000000000000005 /* StatusLightView.swift */,
+				A10000020000000000000012 /* FloatingPanelView.swift */,
+				A10000020000000000000013 /* WindowStyleConfigurator.swift */,
+				A10000020000000000000014 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A10000050000000000000007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A10000020000000000000015 /* startup.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000060000000000000001 /* VibeCodingMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000090000000000000003 /* Build configuration list for PBXNativeTarget "VibeCodingMonitor" */;
+			buildPhases = (
+				A10000070000000000000001 /* Sources */,
+				A10000040000000000000001 /* Frameworks */,
+				A10000080000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VibeCodingMonitor;
+			productName = VibeCodingMonitor;
+			productReference = A10000030000000000000001 /* VibeCodingMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A100000A0000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A10000060000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000090000000000000001 /* Build configuration list for PBXProject "VibeCodingMonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A10000050000000000000001;
+			productRefGroup = A10000050000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000060000000000000001 /* VibeCodingMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000080000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000006 /* Assets.xcassets in Resources */,
+				A10000010000000000000013 /* startup.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000070000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* VibeCodingMonitorApp.swift in Sources */,
+				A10000010000000000000002 /* ContentView.swift in Sources */,
+				A10000010000000000000003 /* AgentStatus.swift in Sources */,
+				A10000010000000000000004 /* StatusMonitor.swift in Sources */,
+				A10000010000000000000005 /* StatusLightView.swift in Sources */,
+				A10000010000000000000007 /* StatusSound.swift in Sources */,
+				A10000010000000000000008 /* AppDelegate.swift in Sources */,
+				A10000010000000000000009 /* WindowModeManager.swift in Sources */,
+				A10000010000000000000010 /* FloatingPanelView.swift in Sources */,
+				A10000010000000000000011 /* WindowStyleConfigurator.swift in Sources */,
+				A10000010000000000000012 /* RootView.swift in Sources */,
+				A10000010000000000000014 /* StartupSound.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A100000B0000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A100000B0000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A100000B0000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VibeCodingMonitor/VibeCodingMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VibeCodingMonitor/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 WH YLH Software Development Co., Ltd — All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylhsoft.VibeCodingMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A100000B0000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VibeCodingMonitor/VibeCodingMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VibeCodingMonitor/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2026 WH YLH Software Development Co., Ltd — All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylhsoft.VibeCodingMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000090000000000000001 /* Build configuration list for PBXProject "VibeCodingMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100000B0000000000000001 /* Debug */,
+				A100000B0000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000090000000000000003 /* Build configuration list for PBXNativeTarget "VibeCodingMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100000B0000000000000003 /* Debug */,
+				A100000B0000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A100000A0000000000000001 /* Project object */;
+}
