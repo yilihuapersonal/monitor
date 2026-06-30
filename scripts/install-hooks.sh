@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# SPDX-FileCopyrightText: 2026 Wuhan Yilihua Software Development Co., Ltd. <yilihuasoftware@outlook.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 # 安装 Cursor Hooks 到用户目录 ~/.cursor/
 set -euo pipefail
 

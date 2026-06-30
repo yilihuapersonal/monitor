@@ -4,8 +4,8 @@
 
 A macOS menu bar app that shows Cursor Agent status with a live indicator light — so you know when the agent is thinking, coding, waiting, done, or stuck.
 
-© 2026 WH YLH Software Development Co., Ltd  
-All rights reserved.
+© 2026 Wuhan Yilihua Software Development Co., Ltd. / 武汉一力化软件开发有限责任公司  
+yilihuasoftware@outlook.com · All rights reserved.
 
 ---
 
@@ -291,5 +291,5 @@ DMG 内含 App、Hooks 文件和安装说明。**使用者不需要 Xcode。**
 
 ## Copyright
 
-© 2026 WH YLH Software Development Co., Ltd  
-All rights reserved.
+© 2026 Wuhan Yilihua Software Development Co., Ltd. / 武汉一力化软件开发有限责任公司  
+yilihuasoftware@outlook.com · All rights reserved.

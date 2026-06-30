@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# SPDX-FileCopyrightText: 2026 Wuhan Yilihua Software Development Co., Ltd. <yilihuasoftware@outlook.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 # 打包 VibeCodingMonitor 为 macOS 安装镜像 (.dmg)
 set -euo pipefail
 
@@ -10,7 +15,7 @@ DERIVED="$BUILD_DIR/DerivedData"
 RELEASE_APP="$DERIVED/Build/Products/Release/$APP_NAME.app"
 DMG_STAGING="$BUILD_DIR/dmg-staging"
 DMG_OUTPUT="$BUILD_DIR/${APP_NAME}-${VERSION}.dmg"
-COPYRIGHT_LINE1="© 2026 WH YLH Software Development Co., Ltd"
+COPYRIGHT_LINE1="© 2026 Wuhan Yilihua Software Development Co., Ltd."
 COPYRIGHT_LINE2="All rights reserved."
 
 echo "→ 编译 Release 版本..."

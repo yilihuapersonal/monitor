@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Wuhan Yilihua Software Development Co., Ltd. <yilihuasoftware@outlook.com>
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 import SwiftUI
 
 struct ContentView: View {
@@ -46,7 +50,7 @@ struct ContentView: View {
             .padding(.top, 8)
 
             VStack(spacing: 2) {
-                Text("© 2026 WH YLH Software Development Co., Ltd")
+                Text("© 2026 Wuhan Yilihua Software Development Co., Ltd.")
                     .lineLimit(1)
                     .minimumScaleFactor(0.8)
                 Text("All rights reserved.")

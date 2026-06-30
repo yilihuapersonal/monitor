@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# SPDX-FileCopyrightText: 2026 Wuhan Yilihua Software Development Co., Ltd. <yilihuasoftware@outlook.com>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 # Cursor Hook: 将 Agent 状态写入 VibeCodingMonitor 共享文件
 # 用法: vibe-status.sh <mode>
 

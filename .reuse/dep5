@@ -1,0 +1,19 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Vibe Coding Monitor
+Upstream-Contact: Wuhan Yilihua Software Development Co., Ltd. <yilihuasoftware@outlook.com>
+
+Files: LICENSE.txt
+Copyright: 2026 Wuhan Yilihua Software Development Co., Ltd.
+License: GPL-3.0-or-later
+
+Files: README.md
+Copyright: 2026 Wuhan Yilihua Software Development Co., Ltd.
+License: GPL-3.0-or-later
+
+Files: HANDOFF.md
+Copyright: 2026 Wuhan Yilihua Software Development Co., Ltd.
+License: GPL-3.0-or-later
+
+Files: .gitignore
+Copyright: 2026 Wuhan Yilihua Software Development Co., Ltd.
+License: GPL-3.0-or-later

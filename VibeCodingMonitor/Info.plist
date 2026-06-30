@@ -21,6 +21,6 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>© 2026 WH YLH Software Development Co., Ltd — All rights reserved.</string>
+	<string>© 2026 Wuhan Yilihua Software Development Co., Ltd. All rights reserved.</string>
 </dict>
 </plist>
