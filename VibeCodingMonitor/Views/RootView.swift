@@ -17,6 +17,6 @@ struct RootView: View {
             }
         }
         .background(WindowStyleConfigurator())
-        .animation(.easeInOut(duration: 0.2), value: windowMode.mode)
+        .animation(nil, value: windowMode.mode)
     }
 }

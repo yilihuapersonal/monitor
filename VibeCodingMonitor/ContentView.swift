@@ -21,13 +21,15 @@ struct ContentView: View {
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
 
-                if let message = monitor.snapshot.message, !message.isEmpty {
-                    Text(message)
-                        .font(.system(size: 11, design: .monospaced))
-                        .foregroundStyle(.tertiary)
-                        .lineLimit(2)
-                        .multilineTextAlignment(.center)
-                }
+                Text(monitor.snapshot.message ?? "")
+                    .font(.system(size: 11, design: .monospaced))
+                    .foregroundStyle(.tertiary)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.center)
+                    .frame(minHeight: 32)
+                    .opacity(
+                        (monitor.snapshot.message?.isEmpty == false) ? 1 : 0
+                    )
             }
 
             HStack(spacing: 6) {

@@ -17,13 +17,13 @@ struct FloatingPanelView: View {
                 Text(monitor.snapshot.status.label)
                     .font(.system(size: 10, weight: .semibold, design: .rounded))
                     .foregroundStyle(.secondary)
-                    .offset(y: 38)
+                    .offset(y: 46)
                     .transition(.opacity.combined(with: .scale(scale: 0.9)))
             }
 
-            StatusLightView(status: monitor.snapshot.status, size: 48)
+            StatusLightView(status: monitor.snapshot.status, size: 36)
         }
-        .frame(width: 80, height: 80)
+        .frame(width: 100, height: 100, alignment: .center)
         .background {
             Circle()
                 .fill(.ultraThinMaterial)

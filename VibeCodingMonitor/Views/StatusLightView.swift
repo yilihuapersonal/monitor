@@ -10,6 +10,11 @@ struct StatusLightView: View {
 
     @State private var blink = true
 
+    /// Glow diameter before blur.
+    private var glowSize: CGFloat { size * 1.7 }
+    /// Fixed layout box large enough for blur + soft shadow so they never affect layout or get square-clipped.
+    private var layoutSize: CGFloat { size * 2.4 }
+
     var body: some View {
         Group {
             if status == .thinking {
@@ -20,6 +25,7 @@ struct StatusLightView: View {
                 lightContent(breathPhase: nil)
             }
         }
+        .frame(width: layoutSize, height: layoutSize)
         .animation(nil, value: status)
         .onAppear { restartBlinkAnimation() }
         .onChange(of: status) { _, _ in restartBlinkAnimation() }
@@ -41,14 +47,11 @@ struct StatusLightView: View {
         let coreOpacity = isBreathing
             ? 0.45 + breathing * 0.55
             : coreOpacityForBlink
-        let coreScale = isBreathing
-            ? 0.92 + breathing * 0.14
-            : 1.0
 
         return ZStack {
             Circle()
                 .fill(color.opacity(glowOpacity))
-                .frame(width: size * 1.7, height: size * 1.7)
+                .frame(width: glowSize, height: glowSize)
                 .blur(radius: size * 0.22)
 
             Circle()
@@ -65,7 +68,6 @@ struct StatusLightView: View {
                     )
                 )
                 .frame(width: size, height: size)
-                .scaleEffect(coreScale)
                 .overlay {
                     Circle()
                         .strokeBorder(Color.white.opacity(0.35), lineWidth: 1)
@@ -73,6 +75,7 @@ struct StatusLightView: View {
                 }
                 .shadow(color: color.opacity(isBreathing ? 0.25 + breathing * 0.35 : 0.45), radius: size * 0.12)
         }
+        .frame(width: layoutSize, height: layoutSize)
         .transaction { transaction in
             if !isBreathing {
                 transaction.animation = blinkAnimation
